@@ -1,8 +1,53 @@
-<html>
-  <head>
-    <title>Hello, World!</title>
-  </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Style Selector</title>
+
+</head>
+<body>
+  
+  
+  
   <body>
-    <h1>Hello, World!</h1>
-  </body>
+    <div class="container">
+        <h1>Art Style Selector</h1>
+        <div class="form-group">
+            <label for="category">Category</label>
+            <select id="category"></select>
+        </div>
+        <div class="form-group">
+            <label for="sub-category">Sub-Category</label>
+            <select id="sub-category"></select>
+        </div>
+        <div class="form-group">
+            <label for="art-style">Art Style</label>
+            <select id="art-style" disabled></select>
+        </div>
+        <div class="form-group">
+          <label for="camera-style">Camera Style:</label>
+          <select id="camera-style">
+            <option value="">Select a camera style</option>
+
+          </select>
+          <br><br>
+
+        <div class="form-group">
+            <label for="input-text">Input Text:</label>
+            <input type="text" cols="50" rows="2" id="inputText" maxlength="200">
+        </div>
+
+          <label for="output-text">Output Text:</label>
+          <textarea id="output-text" cols="50" rows="5" readonly></textarea>
+
+        </div>  <div class="container">
+    <h1>Art Style Selector</h1>
+    <!-- other form elements -->
+    <button id="copy-btn">Copy Output Text</button>
+    <!-- other elements -->
+  </div>
+    </div>
+</body>
+  
 </html>
+ 
