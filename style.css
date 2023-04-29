@@ -1,3 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#style-selector {
+  border: 2px solid #000;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+#style-selector h2 {
+  font-family: "Gothic A1", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+#style-selector label {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+#style-selector select {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#style-selector input[type="text"] {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#style-selector textarea {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 1rem;
+  resize: none;
+  height: 150px;
+}
+
+#copy-btn {
+  font-family: "Gothic A1", sans-serif;
+  font-size: 18px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+#copy-btn:hover {
+  background-color: #0056b3;
+}
+
+
+
         .container {
             width: 40%;
             margin: 0 auto;
