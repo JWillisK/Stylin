@@ -269,9 +269,9 @@ function updateOutputText() {
   const subCategory = document.getElementById('sub-category').value;
   const artStyle = document.getElementById('art-style').value;
   
-  let outputText = `/imagine  ${inputText}; in the style of ${subCategory}/${artStyle}   ; 
-  Image details: ${selectedStyle.Name} , ${selectedStyle.CameraPosition} ,
-  ${selectedStyle.LensType} lens --v 4`;
+  //removed ${selectedStyle.LensType} lens
+  //Image details: ${selectedStyle.Name} , ${selectedStyle.CameraPosition}
+  let outputText = `/imagine ${inputText}. style of ${artStyle}. --v 5`;
 
   outputTextField.value = outputText;
 }
